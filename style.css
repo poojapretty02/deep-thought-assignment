@@ -341,7 +341,7 @@ select {
   position: relative;
   left: 18px;
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .container1,
   .container2 {
     flex-direction: column;
@@ -349,4 +349,4 @@ select {
   .box {
     width: 100%;
   }
-} */
+}
