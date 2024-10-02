@@ -342,13 +342,14 @@ select {
   left: 18px;
 }
 @media (max-width: 600px) {
-  .container1,
+    .container1,
   .container2 {
     flex-direction: column;
   }
   .box {
     width: 500px;
   }
+
   .nav {
     position: relative;
     background-color: gainsboro;
@@ -379,6 +380,21 @@ select {
   .header {
     position: absolute;
     top: 70px;
-    right: -268px;
+    right: -272px;
+  }
+  .content2 input {
+    padding: 10px 0px 40px 10px;
+    border-radius: 10px;
+    border: 2px solid #fafafa;
+    position: relative;
+    bottom: 11px;
+    left: -1px;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .textcontent input {
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border: 2px solid #fafafa;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
   }
 }
